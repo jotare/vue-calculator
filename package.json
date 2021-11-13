@@ -1,6 +1,6 @@
 {
   "name": "vue-calculator",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -42,11 +42,16 @@
     "parserOptions": {
       "parser": "babel-eslint"
     },
-    "rules": {
-        "quotes": ["error", "double"],
+      "rules": {
+          "camel": "off",
+        "comma-dangle": "warn",
+        "curly": "off",
         "indent": ["error", 4],
-        "vue/html-indent": ["error", 2],
-        "no-trailing-spaces": ["warn"]
+        "no-plusplus": "off",
+        "no-trailing-spaces": "warn",
+        "quotes": ["error", "double"],
+        "semi": "warn",
+        "vue/html-indent": ["error", 2]
     },
     "overrides": [
       {

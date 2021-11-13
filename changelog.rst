@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+0.3.0
+-----
+- Simple tested implementation of +, -, * and / with 3 decimals max
+
 0.2.0
 -----
 - Added Calculator component (empty)
