@@ -5,3 +5,5 @@ CHANGELOG
 -----
 - Added vue-cli template application (vue3, babel, eslint and jest)
 - Added testing-library
+- Changed starndard config for airbnb. Linted code
+- Added bulma and fontawesome
